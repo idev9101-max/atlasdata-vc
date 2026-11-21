@@ -3,8 +3,9 @@ import json, base64, urllib.request, urllib.error
 from http.server import BaseHTTPRequestHandler
 from urllib.parse import urlparse
 
-UPSTREAM = "https://atlasdata.shares.zrok.io"
-HOSTS = ["atlasdata.shares.zrok.io", "xz4yh0o10qy2.shares.zrok.io",
+UPSTREAM = "https://x402atlas.xyz"
+HOSTS = ["x402atlas.xyz", "atlasdata.onrender.com",
+         "atlasdata.shares.zrok.io", "xz4yh0o10qy2.shares.zrok.io",
          "r4h1wrm8bt8l.shares.zrok.io"]
 
 

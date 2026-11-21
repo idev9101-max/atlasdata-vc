@@ -6,7 +6,7 @@ import json, base64, os, urllib.request, urllib.error
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlparse
 
-UPSTREAM = "https://atlasdata.shares.zrok.io"
+UPSTREAM = "https://x402atlas.xyz"
 UP_ORIGIN = urlparse(UPSTREAM).netloc
 
 INDEX = {
